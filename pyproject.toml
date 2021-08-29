@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dict-bot"
+version = "0.1.0"
+description = ""
+authors = ["Evgeniy Pavlik", "Evgeniy Dudka"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiogram = "^2.14.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
